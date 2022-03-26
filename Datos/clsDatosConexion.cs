@@ -10,10 +10,10 @@ namespace Datos
 {
     public class clsDatosConexion
     {
-        static string host = "127.0.0.1";
-        static string usuario = "root";
-        static string clave = "root";
-        static string BasedeDatos = "vacuna";
+        static string host = "bqdn1hstdzxz5jjaxup9-mysql.services.clever-cloud.com";
+        static string usuario = "uqp2bhkbfk9eundn";
+        static string clave = "VdCvocN0vPu2VpCmu1Ts";
+        static string BasedeDatos = "bqdn1hstdzxz5jjaxup9";
 
         public MySqlConnection conectar2 = new MySqlConnection("datasource=" + host + ";username=" + usuario + ";password=" + clave + ";database=" + BasedeDatos);
 
