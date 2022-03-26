@@ -13,7 +13,7 @@ namespace Datos
         static string host = "127.0.0.1";
         static string usuario = "root";
         static string clave = "root";
-        static string BasedeDatos = "proyecto vacuna";
+        static string BasedeDatos = "vacuna";
 
         public MySqlConnection conectar2 = new MySqlConnection("datasource=" + host + ";username=" + usuario + ";password=" + clave + ";database=" + BasedeDatos);
 

@@ -43,16 +43,15 @@ namespace Proyecto_Vacuna
         private void guna2Button1_Click(object sender, EventArgs e)
         {
 
-            MySqlConnection conexion = new MySqlConnection("server = 127.0.0.1; user id = root; password = root; persistsecurityinfo = True; database = proyecto-vacunaulti");
+            MySqlConnection conexion = new MySqlConnection("server = 127.0.0.1; user id = root; password = root; persistsecurityinfo = True; database = vacuna");
             DataTable dt = new DataTable();
-            MySqlDataAdapter da = new MySqlDataAdapter("Select * from vistavacunaciones", conexion);
+            MySqlDataAdapter da = new MySqlDataAdapter("Select * from vistavacunaciones  where fecha_vacunacion > '"+FechaInicial.Value.ToString("yyy-MM-dd")+"' and fecha_vacunacion < '"+FechaFinal.Value.ToString("yyy-MM-dd") + "'", conexion);
             da.Fill(dt);
 
             reportViewer1.LocalReport.DataSources.Clear();
             ReportDataSource rp = new ReportDataSource("DataSet2", dt);
             reportViewer1.LocalReport.DataSources.Add(rp);
             reportViewer1.RefreshReport();
-
         }
 
         private void reportViewer1_Load_1(object sender, EventArgs e)
