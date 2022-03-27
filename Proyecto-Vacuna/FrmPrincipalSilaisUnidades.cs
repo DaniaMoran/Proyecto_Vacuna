@@ -128,8 +128,7 @@ namespace Proyecto_Vacuna
 
         private void registrarlote_Click(object sender, EventArgs e)
         {
-            FrmAgregarLote agregarLote = new FrmAgregarLote();
-            agregarLote.Visible = true;
+          
         }
 
         private void agregarVacunas_Click(object sender, EventArgs e)
@@ -139,8 +138,7 @@ namespace Proyecto_Vacuna
 
         private void agregarJornadas_Click(object sender, EventArgs e)
         {
-            FrmAgregarJornada agregarJornada = new FrmAgregarJornada();
-            agregarJornada.Visible = true;
+          
         }
 
         private void totalDeVacunaciones_Click(object sender, EventArgs e)
@@ -151,65 +149,84 @@ namespace Proyecto_Vacuna
 
         private void agregarUnidadDeVacunaciòn_Click(object sender, EventArgs e)
         {
-            FrmAgregarUnidadVacunacion centrosalud = new FrmAgregarUnidadVacunacion();
-            centrosalud.Visible = true;
+           
         }
 
         private void agregarPaciente_Click(object sender, EventArgs e)
         {
-            FrmAgregarPaciente Paciente = new FrmAgregarPaciente();
-            Paciente.Visible = true;
+           
         }
 
         private void agregarVacunaciòn_Click(object sender, EventArgs e)
         {
-            FrmAgregarVacunacion vacunacion = new FrmAgregarVacunacion();
-            vacunacion.Visible = true;
+           
 
         }
 
-        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FrmGenerarInforme info = new FrmGenerarInforme();
+            info.Visible = true;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void vacunas_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
-            FrmAgregarVacuna vacunacion = new FrmAgregarVacuna();
-            vacunacion.Visible = true;
+            FrmAgregarLote agregarLote = new FrmAgregarLote();
+            agregarLote.Visible = true;
         }
 
-        private void distribuirLoteASilais_Click(object sender, EventArgs e)
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
             FrmDistribucionSilais frm = new FrmDistribucionSilais();
             frm.Visible = true;
         }
 
-        private void distribuirLoteAUnidades_Click(object sender, EventArgs e)
-        {
-            FrmDistribucion frm = new FrmDistribucion();
-            frm.Visible = true;
-        }
-
-        private void datosLotesEnUnidades_Click(object sender, EventArgs e)
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
             FrmDatosDeUnidades datoslu = new FrmDatosDeUnidades();
             datoslu.Visible = true;
         }
 
-        private void datosLotes_Click(object sender, EventArgs e)
+        private void radioButton3_CheckedChanged(object sender, EventArgs e)
         {
-
+            FrmDistribucion frm = new FrmDistribucion();
+            frm.Visible = true;
         }
 
-        private void agregarBarrio_Click(object sender, EventArgs e)
+        private void button5_Click(object sender, EventArgs e)
         {
-
+            FrmAgregarPaciente Paciente = new FrmAgregarPaciente();
+            Paciente.Visible = true;
         }
 
-        private void datosLotesEnSILAIS_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
+            FrmAgregarVacuna vacunacion = new FrmAgregarVacuna();
+            vacunacion.Visible = true;
+        }
 
+        private void button7_Click(object sender, EventArgs e)
+        {
+            FrmAgregarUnidadVacunacion centrosalud = new FrmAgregarUnidadVacunacion();
+            centrosalud.Visible = true;
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            FrmAgregarJornada agregarJornada = new FrmAgregarJornada();
+            agregarJornada.Visible = true;
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            FrmAgregarVacunacion vacunacion = new FrmAgregarVacunacion();
+            vacunacion.Visible = true;
         }
     }
 }
