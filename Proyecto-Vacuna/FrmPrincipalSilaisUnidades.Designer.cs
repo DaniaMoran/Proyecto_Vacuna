@@ -68,7 +68,7 @@
             this.cerrarSesion});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(757, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(907, 24);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
@@ -82,35 +82,35 @@
             this.datosLotesEnUnidades});
             this.lotes.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.lotes.Name = "lotes";
-            this.lotes.Size = new System.Drawing.Size(55, 20);
+            this.lotes.Size = new System.Drawing.Size(54, 20);
             this.lotes.Text = "Lotes";
             this.lotes.Click += new System.EventHandler(this.lotes_Click);
             // 
             // registrarlote
             // 
             this.registrarlote.Name = "registrarlote";
-            this.registrarlote.Size = new System.Drawing.Size(246, 22);
+            this.registrarlote.Size = new System.Drawing.Size(244, 22);
             this.registrarlote.Text = "Registrar Lote";
             this.registrarlote.Click += new System.EventHandler(this.registrarlote_Click);
             // 
             // distribuirLoteASilais
             // 
             this.distribuirLoteASilais.Name = "distribuirLoteASilais";
-            this.distribuirLoteASilais.Size = new System.Drawing.Size(246, 22);
+            this.distribuirLoteASilais.Size = new System.Drawing.Size(244, 22);
             this.distribuirLoteASilais.Text = "Distribuir Lote a SILAIS";
             this.distribuirLoteASilais.Click += new System.EventHandler(this.distribuirLoteASilais_Click);
             // 
             // distribuirLoteAUnidades
             // 
             this.distribuirLoteAUnidades.Name = "distribuirLoteAUnidades";
-            this.distribuirLoteAUnidades.Size = new System.Drawing.Size(246, 22);
+            this.distribuirLoteAUnidades.Size = new System.Drawing.Size(244, 22);
             this.distribuirLoteAUnidades.Text = "Distribuir Lote a Unidades";
             this.distribuirLoteAUnidades.Click += new System.EventHandler(this.distribuirLoteAUnidades_Click);
             // 
             // datosLotesEnUnidades
             // 
             this.datosLotesEnUnidades.Name = "datosLotesEnUnidades";
-            this.datosLotesEnUnidades.Size = new System.Drawing.Size(246, 22);
+            this.datosLotesEnUnidades.Size = new System.Drawing.Size(244, 22);
             this.datosLotesEnUnidades.Text = "Datos Lotes en Unidades";
             this.datosLotesEnUnidades.Click += new System.EventHandler(this.datosLotesEnUnidades_Click);
             // 
@@ -120,14 +120,14 @@
             this.agregarVacunas});
             this.vacunas.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.vacunas.Name = "vacunas";
-            this.vacunas.Size = new System.Drawing.Size(75, 20);
+            this.vacunas.Size = new System.Drawing.Size(74, 20);
             this.vacunas.Text = "Vacunas";
             this.vacunas.Click += new System.EventHandler(this.vacunas_Click);
             // 
             // agregarVacunas
             // 
             this.agregarVacunas.Name = "agregarVacunas";
-            this.agregarVacunas.Size = new System.Drawing.Size(186, 22);
+            this.agregarVacunas.Size = new System.Drawing.Size(184, 22);
             this.agregarVacunas.Text = "Agregar Vacunas";
             this.agregarVacunas.Click += new System.EventHandler(this.agregarVacunas_Click);
             // 
@@ -137,14 +137,14 @@
             this.agregarJornadas});
             this.jornadas.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.jornadas.Name = "jornadas";
-            this.jornadas.Size = new System.Drawing.Size(79, 20);
+            this.jornadas.Size = new System.Drawing.Size(78, 20);
             this.jornadas.Text = "Jornadas";
             this.jornadas.Click += new System.EventHandler(this.jornadas_Click);
             // 
             // agregarJornadas
             // 
             this.agregarJornadas.Name = "agregarJornadas";
-            this.agregarJornadas.Size = new System.Drawing.Size(190, 22);
+            this.agregarJornadas.Size = new System.Drawing.Size(188, 22);
             this.agregarJornadas.Text = "Agregar Jornadas";
             this.agregarJornadas.Click += new System.EventHandler(this.agregarJornadas_Click);
             // 
@@ -154,13 +154,13 @@
             this.totalDeVacunaciones});
             this.estadisticas.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.estadisticas.Name = "estadisticas";
-            this.estadisticas.Size = new System.Drawing.Size(98, 20);
+            this.estadisticas.Size = new System.Drawing.Size(97, 20);
             this.estadisticas.Text = "Estadisticas";
             // 
             // totalDeVacunaciones
             // 
             this.totalDeVacunaciones.Name = "totalDeVacunaciones";
-            this.totalDeVacunaciones.Size = new System.Drawing.Size(221, 22);
+            this.totalDeVacunaciones.Size = new System.Drawing.Size(219, 22);
             this.totalDeVacunaciones.Text = "Total de Vacunaciones";
             this.totalDeVacunaciones.Click += new System.EventHandler(this.totalDeVacunaciones_Click);
             // 
@@ -170,14 +170,14 @@
             this.agregarUsuarios});
             this.usuarios.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.usuarios.Name = "usuarios";
-            this.usuarios.Size = new System.Drawing.Size(78, 20);
+            this.usuarios.Size = new System.Drawing.Size(77, 20);
             this.usuarios.Text = "Usuarios";
             this.usuarios.Click += new System.EventHandler(this.usuarios_Click);
             // 
             // agregarUsuarios
             // 
             this.agregarUsuarios.Name = "agregarUsuarios";
-            this.agregarUsuarios.Size = new System.Drawing.Size(189, 22);
+            this.agregarUsuarios.Size = new System.Drawing.Size(187, 22);
             this.agregarUsuarios.Text = "Agregar Usuarios";
             this.agregarUsuarios.Click += new System.EventHandler(this.agregarUsuarios_Click);
             // 
@@ -187,13 +187,13 @@
             this.agregarUnidadDeVacunaciòn});
             this.unidades.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.unidades.Name = "unidades";
-            this.unidades.Size = new System.Drawing.Size(79, 20);
+            this.unidades.Size = new System.Drawing.Size(78, 20);
             this.unidades.Text = "Unidades";
             // 
             // agregarUnidadDeVacunaciòn
             // 
             this.agregarUnidadDeVacunaciòn.Name = "agregarUnidadDeVacunaciòn";
-            this.agregarUnidadDeVacunaciòn.Size = new System.Drawing.Size(274, 22);
+            this.agregarUnidadDeVacunaciòn.Size = new System.Drawing.Size(272, 22);
             this.agregarUnidadDeVacunaciòn.Text = "Agregar Unidad de Vacunaciòn";
             this.agregarUnidadDeVacunaciòn.Click += new System.EventHandler(this.agregarUnidadDeVacunaciòn_Click);
             // 
@@ -203,13 +203,13 @@
             this.agregarPaciente});
             this.pacientes.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.pacientes.Name = "pacientes";
-            this.pacientes.Size = new System.Drawing.Size(82, 20);
+            this.pacientes.Size = new System.Drawing.Size(81, 20);
             this.pacientes.Text = "Pacientes";
             // 
             // agregarPaciente
             // 
             this.agregarPaciente.Name = "agregarPaciente";
-            this.agregarPaciente.Size = new System.Drawing.Size(186, 22);
+            this.agregarPaciente.Size = new System.Drawing.Size(184, 22);
             this.agregarPaciente.Text = "Agregar Paciente";
             this.agregarPaciente.Click += new System.EventHandler(this.agregarPaciente_Click);
             // 
@@ -219,13 +219,13 @@
             this.agregarVacunaciòn});
             this.vacunacion.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.vacunacion.Name = "vacunacion";
-            this.vacunacion.Size = new System.Drawing.Size(95, 20);
+            this.vacunacion.Size = new System.Drawing.Size(94, 20);
             this.vacunacion.Text = "Vacunaciòn";
             // 
             // agregarVacunaciòn
             // 
             this.agregarVacunaciòn.Name = "agregarVacunaciòn";
-            this.agregarVacunaciòn.Size = new System.Drawing.Size(206, 22);
+            this.agregarVacunaciòn.Size = new System.Drawing.Size(204, 22);
             this.agregarVacunaciòn.Text = "Agregar Vacunaciòn";
             this.agregarVacunaciòn.Click += new System.EventHandler(this.agregarVacunaciòn_Click);
             // 
@@ -233,7 +233,7 @@
             // 
             this.cerrarSesion.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.cerrarSesion.Name = "cerrarSesion";
-            this.cerrarSesion.Size = new System.Drawing.Size(108, 20);
+            this.cerrarSesion.Size = new System.Drawing.Size(107, 20);
             this.cerrarSesion.Text = "Cerrar Sesiòn";
             this.cerrarSesion.Click += new System.EventHandler(this.cerrarSesion_Click);
             // 
@@ -241,11 +241,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.BackgroundImage = global::Proyecto_Vacuna.Properties.Resources.istockphoto_1069481352_612x612;
-            this.ClientSize = new System.Drawing.Size(757, 331);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(907, 384);
             this.Controls.Add(this.menuStrip1);
             this.Name = "FrmPrincipalSilaisUnidades";
             this.Text = "FrmPrincipalSilaisUnidades";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.FrmPrincipalSilaisUnidades_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

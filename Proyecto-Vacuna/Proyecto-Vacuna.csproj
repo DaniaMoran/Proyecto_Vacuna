@@ -175,6 +175,12 @@
     <Compile Include="FrmLogin.designer.cs">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frmpacientes_infantes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmpacientes_infantes.Designer.cs">
+      <DependentUpon>Frmpacientes_infantes.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmPrincipalSilaisUnidades.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -232,6 +238,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmpacientes_infantes.resx">
+      <DependentUpon>Frmpacientes_infantes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPrincipalSilaisUnidades.resx">
       <DependentUpon>FrmPrincipalSilaisUnidades.cs</DependentUpon>
