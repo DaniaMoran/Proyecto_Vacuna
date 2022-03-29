@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Proyecto_Vacuna
@@ -18,7 +11,7 @@ namespace Proyecto_Vacuna
         {
             InitializeComponent();
 
-
+            tipousuario = clsSession.id_tipoUsuario;
 
             if (tipousuario == 1)
             {
@@ -29,10 +22,10 @@ namespace Proyecto_Vacuna
                 this.lotesilais.Visible = true;
                 this.vacuna.Visible = true;
                 this.pacientes.Visible = true;
-                this.distribucion.Visible = false;
-                this.loteunidades.Visible = false;
-                this.jornada.Visible = false;
-                this.nuevaunidad.Visible = false;
+                this.distribucion.Visible = true;
+                this.loteunidades.Visible = true;
+                this.jornada.Visible = true;
+                
 
             }
             else if (tipousuario == 2)
@@ -102,6 +95,7 @@ namespace Proyecto_Vacuna
         private void vacuna_Click(object sender, EventArgs e)
         {
             FrmAgregarVacuna agregarVacuna = new FrmAgregarVacuna();
+            agregarVacuna.Visible = true;
         }
 
         private void estadisticas_Click(object sender, EventArgs e)
@@ -156,6 +150,21 @@ namespace Proyecto_Vacuna
         {
             FrmAgregarVacunacion vacunacion = new FrmAgregarVacunacion();
             vacunacion.Visible = true;
+        }
+
+        private void FrmPrincipal_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lote_DoubleClick(object sender, EventArgs e)
+        {
+
+        }
+
+        private void vacuna_DoubleClick(object sender, EventArgs e)
+        {
+
         }
     }
 

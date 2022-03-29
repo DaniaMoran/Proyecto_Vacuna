@@ -61,6 +61,7 @@
             this.lote.TabIndex = 0;
             this.lote.Text = "Registro de Lotes";
             this.lote.Click += new System.EventHandler(this.lote_Click);
+            this.lote.DoubleClick += new System.EventHandler(this.lote_DoubleClick);
             // 
             // vacuna
             // 
@@ -78,6 +79,7 @@
             this.vacuna.TabIndex = 1;
             this.vacuna.Text = "Registro Vacuna";
             this.vacuna.Click += new System.EventHandler(this.vacuna_Click);
+            this.vacuna.DoubleClick += new System.EventHandler(this.vacuna_DoubleClick);
             // 
             // estadisticas
             // 
@@ -285,6 +287,7 @@
             this.Controls.Add(this.lote);
             this.Name = "FrmPrincipal";
             this.Text = "FrmPrincipal";
+            this.Load += new System.EventHandler(this.FrmPrincipal_Load);
             this.distribucion.ResumeLayout(false);
             this.distribucion.PerformLayout();
             this.ResumeLayout(false);

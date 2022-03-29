@@ -38,7 +38,7 @@ namespace Proyecto_Vacuna
                 }
                 else
                 {
-                    FrmPrincipalSilaisUnidades frm = new FrmPrincipalSilaisUnidades();
+                    FrmPrincipal frm = new FrmPrincipal();
                     frm.Visible = true;
                     this.Visible = false;
                 }
