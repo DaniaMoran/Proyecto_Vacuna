@@ -181,11 +181,11 @@
     <Compile Include="Frmpacientes_infantes.Designer.cs">
       <DependentUpon>Frmpacientes_infantes.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmPrincipalSilaisUnidades.cs">
+    <Compile Include="FrmPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmPrincipalSilaisUnidades.Designer.cs">
-      <DependentUpon>FrmPrincipalSilaisUnidades.cs</DependentUpon>
+    <Compile Include="FrmPrincipal.Designer.cs">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -242,8 +242,8 @@
     <EmbeddedResource Include="Frmpacientes_infantes.resx">
       <DependentUpon>Frmpacientes_infantes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmPrincipalSilaisUnidades.resx">
-      <DependentUpon>FrmPrincipalSilaisUnidades.cs</DependentUpon>
+    <EmbeddedResource Include="FrmPrincipal.resx">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -330,7 +330,17 @@
     <None Include="Resources\istockphoto-1069481352-612x612.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\cerrar.png" />
+    <Content Include="Resources\estadistica-inferencial.png" />
+    <Content Include="Resources\grupo.png" />
+    <Content Include="Resources\hospital.png" />
+    <Content Include="Resources\jornada.png" />
+    <Content Include="Resources\paciente %282%29.png" />
+    <Content Include="Resources\paciente.png" />
+    <Content Include="Resources\registro-de-vacunas.png" />
     <Content Include="Resources\vacuna.png" />
+    <Content Include="Resources\vacunacion.png" />
+    <Content Include="Resources\vacunado.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
