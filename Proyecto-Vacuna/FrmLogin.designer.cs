@@ -28,14 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmLogin));
             this.guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.LblPassword = new System.Windows.Forms.Label();
             this.TxtPass = new System.Windows.Forms.TextBox();
             this.Txtusuario = new System.Windows.Forms.TextBox();
             this.LblEmail = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2GroupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2GroupBox1
@@ -46,13 +48,13 @@
             this.guna2GroupBox1.Controls.Add(this.TxtPass);
             this.guna2GroupBox1.Controls.Add(this.Txtusuario);
             this.guna2GroupBox1.Controls.Add(this.LblEmail);
-            this.guna2GroupBox1.CustomBorderColor = System.Drawing.Color.Aquamarine;
+            this.guna2GroupBox1.CustomBorderColor = System.Drawing.Color.Transparent;
             this.guna2GroupBox1.Font = new System.Drawing.Font("Britannic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2GroupBox1.ForeColor = System.Drawing.Color.Black;
-            this.guna2GroupBox1.Location = new System.Drawing.Point(363, 12);
+            this.guna2GroupBox1.Location = new System.Drawing.Point(287, 12);
             this.guna2GroupBox1.Name = "guna2GroupBox1";
             this.guna2GroupBox1.ShadowDecoration.Parent = this.guna2GroupBox1;
-            this.guna2GroupBox1.Size = new System.Drawing.Size(374, 294);
+            this.guna2GroupBox1.Size = new System.Drawing.Size(380, 294);
             this.guna2GroupBox1.TabIndex = 0;
             this.guna2GroupBox1.Text = "LOGIN";
             this.guna2GroupBox1.Click += new System.EventHandler(this.guna2GroupBox1_Click);
@@ -109,22 +111,23 @@
             this.LblEmail.TabIndex = 30;
             this.LblEmail.Text = "Nombre Usuario";
             // 
-            // panel1
+            // guna2PictureBox1
             // 
-            this.panel1.BackColor = System.Drawing.Color.MediumOrchid;
-            this.panel1.ForeColor = System.Drawing.Color.DarkMagenta;
-            this.panel1.Location = new System.Drawing.Point(12, 12);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(345, 294);
-            this.panel1.TabIndex = 1;
+            this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
+            this.guna2PictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
+            this.guna2PictureBox1.Size = new System.Drawing.Size(252, 294);
+            this.guna2PictureBox1.TabIndex = 1;
+            this.guna2PictureBox1.TabStop = false;
             // 
             // FrmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.ClientSize = new System.Drawing.Size(749, 318);
-            this.Controls.Add(this.panel1);
+            this.ClientSize = new System.Drawing.Size(680, 318);
+            this.Controls.Add(this.guna2PictureBox1);
             this.Controls.Add(this.guna2GroupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmLogin";
@@ -133,6 +136,7 @@
             this.Load += new System.EventHandler(this.FrmLogin_Load);
             this.guna2GroupBox1.ResumeLayout(false);
             this.guna2GroupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -145,6 +149,6 @@
         private System.Windows.Forms.TextBox TxtPass;
         private System.Windows.Forms.TextBox Txtusuario;
         private System.Windows.Forms.Label LblEmail;
-        private System.Windows.Forms.Panel panel1;
+        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
     }
 }

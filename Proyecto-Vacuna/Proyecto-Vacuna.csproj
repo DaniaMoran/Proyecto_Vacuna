@@ -329,5 +329,8 @@
   <ItemGroup>
     <None Include="Resources\istockphoto-1069481352-612x612.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\vacuna.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
