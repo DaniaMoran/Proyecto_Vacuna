@@ -21,7 +21,7 @@ namespace Datos
         public int AgregarLote(int PVacuna, int PSilais, String PFechaEntrada, int PUnidades, String PFechaVencimiento)
         {
             //Gestion por medio de PA
-           
+
             try
             {
                 MySqlParameter x;
@@ -45,7 +45,7 @@ namespace Datos
                 CM.Parameters.AddWithValue("pCantidad", PUnidades);
                 CM.Parameters["pCantidad"].Direction = ParameterDirection.Input;
 
-               
+
                 CM.Parameters.AddWithValue("pFecha_vencimiento", PFechaVencimiento);
                 CM.Parameters["pFecha_vencimiento"].Direction = ParameterDirection.Input;
 
@@ -53,7 +53,7 @@ namespace Datos
                 x = CM.Parameters.AddWithValue("ppmsj", "");
                 CM.Parameters["ppmsj"].Direction = ParameterDirection.Output;
 
-                CM.ExecuteNonQuery();//Nos ejecuta todo el codigo con relacion al proceso de almacenado en Mysql
+             int v =   CM.ExecuteNonQuery();//Nos ejecuta todo el codigo con relacion al proceso de almacenado en Mysql
 
                 return Convert.ToInt32(x.Value.ToString());
 

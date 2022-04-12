@@ -43,7 +43,7 @@ namespace Proyecto_Vacuna
         private void guna2Button1_Click(object sender, EventArgs e)
         {
 
-            MySqlConnection conexion = new MySqlConnection("server = 127.0.0.1; user id = root; password = root; persistsecurityinfo = True; database = vacuna");
+            MySqlConnection conexion = new MySqlConnection("server = bqdn1hstdzxz5jjaxup9-mysql.services.clever-cloud.com; user id = uqp2bhkbfk9eundn; password = VdCvocN0vPu2VpCmu1Ts; persistsecurityinfo = True; database = bqdn1hstdzxz5jjaxup9");
             DataTable dt = new DataTable();
             MySqlDataAdapter da = new MySqlDataAdapter("Select * from vistavacunaciones  where fecha_vacunacion > '"+FechaInicial.Value.ToString("yyy-MM-dd")+"' and fecha_vacunacion < '"+FechaFinal.Value.ToString("yyy-MM-dd") + "'", conexion);
             da.Fill(dt);
